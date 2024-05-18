@@ -20,7 +20,7 @@ from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 
 # Set the environment variable
 os.environ["TOKENIZERS_PARALLELISM"] = "false" # to avoid warning "Tokenizer deadlocks"
-os.environ["HF_TOKEN"] = "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" # my huggingface key to access llama models
+os.environ["HF_TOKEN"] = "<API KEY>" # my huggingface key to access llama models
 
 import wandb
 #last_run_id = "kifgpikn"  # fetch the run_id from your wandb workspace
